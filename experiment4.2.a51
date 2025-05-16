@@ -1,6 +1,6 @@
-//Name: Prathmesh Navale
+ 
 //Experiment Name:- Serial communication using UART of 8051 Micro controller (B)
-//PRN :- 22420235  Roll No:- 212075
+ 
 ORG 0000H               ; Set the origin (starting address) of the program to 0x0000
 MOV SCON, #50H          ; Configure UART mode (Mode 1: 8-bit data, variable baud rate, enable receiver)
 MOV TMOD, #20H          ; Set Timer 1 in Mode 2 (8-bit auto-reload mode)
